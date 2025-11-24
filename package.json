@@ -1,0 +1,30 @@
+{
+  "name": "parsel2.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url/parcel2.0/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoloshchukYaroslav/parsel2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoloshchukYaroslav/parsel2.0/issues"
+  },
+  "homepage": "https://github.com/VoloshchukYaroslav/parsel2.0#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.6"
+  }
+}
